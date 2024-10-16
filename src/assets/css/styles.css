@@ -1,0 +1,119 @@
+/* Reset some basic styles */
+body, h1, p, form, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* LoginScreen.vue */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    background: linear-gradient(180deg, #F6BDC6 3.45%, #C6CEDC 37%, #C6CEDC 57.49%, #C9DDE8 72.43%, #86ADC3 93.1%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(54, 52, 52, 0.1);
+    text-align: center;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #F6BDC6 3.45%, #C6CEDC 37%, #C6CEDC 57.49%, #C9DDE8 72.43%, #86ADC3 93.1%);
+  }
+
+.login-container h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #333;
+}
+
+.login-container p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.input-group input { 
+    appearance: none;
+    -webkit-appearance: none; 
+    background-image: none; /* Remove any background image that might be creating an arrow */
+
+    width: 100%;
+    padding: 15px;
+    padding-left: 45px;
+    border-radius: 30px;
+    border: 2px solid #C6CEDC;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; 
+}
+
+.input-group input:focus {
+    border-color: #86ADC3;
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #333;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+}
+
+.reset-password {
+    margin-top: 20px;
+}
+
+.reset-password a {
+     color: #000000;
+    text-decoration: none;
+}
+
+.reset-password a span {
+    color: #A96674;
+}
+
+
+
+.login-button {
+    box-sizing: border-box;
+    width: 193px;
+    height: 40px;
+    margin: 20px auto 0 auto;
+    background: #E8C6CC;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+}

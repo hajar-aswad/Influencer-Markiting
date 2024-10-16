@@ -1,0 +1,61 @@
+.delete-dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .delete-dialog {
+    background-color: #C6CEDC;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    width: 327px;
+    box-sizing: border-box;
+  }
+  
+  .delete-dialog h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .confirm-button, .cancel-button {
+    background: #E3C3CE;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover, .cancel-button:hover {
+    background: #E3C3CE;
+  }
+  
+  .add-product-button {
+    background: #E3C3CE;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
